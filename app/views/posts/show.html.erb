@@ -1,5 +1,7 @@
 <h1><%=@post.title %></h1>
 
+<%= image_tag @post.image.url(:large), class: 'img-show' if @post.image? %>
+
 <p><%=@post.body %></p>
 <%=link_to 'Изменить', edit_post_path(@post) %>
 |
