@@ -1,5 +1,8 @@
 <h1> Все статьи: </h1>
 
+<section id='posts'>
 
-<%=	render 'post' %>
+	<%=	render 'post' %>
+	<%= will_paginate @posts, renderer: 'BootstrapPaginationHelper::LinkRenderer' %>
 
+</section>

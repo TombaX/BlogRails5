@@ -17,6 +17,7 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'bootstrap', '~> 4.0.0.alpha5'
+gem 'will_paginate', '~> 3.1.0'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'

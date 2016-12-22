@@ -3,6 +3,9 @@ ru:
     errors: 'При заполнении формы возникли ошибки'
     back: 'Назад'
     submit: 'Сохранить'
+  will_paginate:
+    previous_label: '&larr; Туда'
+    next_label: 'Сюда &rarr;'
   posts:
     new:
      title: 'Новая статья'
